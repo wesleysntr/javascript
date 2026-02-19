@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+    background-color: gray;
+    color: white;
+    font: normal normal 1.2em Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+    font-size: 2em;
+}
+section {
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+section > input#btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section > div > img {
+    display: block;
+    margin: auto;
+    height: 400px;
+    border-radius: 1000px;
+    padding: 10px;
+}
+p#res1 {
+    text-align: center;
+}
+footer {
+    font-size: 14px;
+    text-align: center;
+}

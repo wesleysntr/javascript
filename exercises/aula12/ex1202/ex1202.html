@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de sexo e idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Qual o seu sexo e quantos anos você tem?</header>
+    <section>
+        <p>Digite abaixo o ano em que você nasceu:</p>
+        <input id="txtano" type="number" name="txtano">
+        <p>Preencha abaixo o seu sexo:</p>
+        <input type="radio" name="radsex" id="mas" checked>
+        <label for="radsex">Masculino</label>
+        <input type="radio" name="radsex" id="fem">
+        <label for="radsex">Feminino</label>
+        <br>
+        <input id="btn" type="button" value="Verificar" name="btn">
+        <p id="res1">Informe os valores acima e aperte <em>Verificar</em></p>
+        <div id="res2"></div>
+    </section>
+    <footer>
+        Desenvolvido por <strong>Wesley Santos Rocha</strong>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(91, 91, 209);
+    font: normal normal 1.2em Arial, sans-serif;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+input {
+    margin: 5px;
+}
+
+select {
+    min-width: 150px;
+}
+
+input#btnfin {
+    margin-left: 0px;
+    display: block;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

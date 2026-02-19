@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+    background-color: gray;
+    color: white;
+    font: normal normal 1.2em Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+    font-size: 2em;
+}
+section {
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+section > p >  input {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    font-size: 14px;
+    text-align: center;
+}

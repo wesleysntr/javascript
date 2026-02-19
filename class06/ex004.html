@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+    <style>
+        body {
+            font: normal normal 1.5em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá, ${nome}!<br>`)
+        document.write(`Seu nome tem: <br>${nome.length} letras<br>Em maiúsculas fica ${nome.toUpperCase()}<br>Em minúsculas fica ${nome.toLowerCase()}`)
+        var n1 = Number.parseFloat(window.prompt('Digite um número qualquer'))
+        window.alert(`O número que você digitou é ${n1}, ou ${n1.toFixed(2)}, com duas casas decimais, ou ${n1.toFixed(2).replace('.', ',')}, com duas casas decimais e vírgula ao invés de ponto, ou ${n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}, em reais.`)
+    </script>
+</body>
+</html>

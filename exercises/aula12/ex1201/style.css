@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {
+    font: normal normal 1.2em Arial, Helvetica, sans-serif;
+    background-color: gray;
+    color: white;
+}
+header {
+    font-size: 2em;
+    text-align: center;
+}
+section {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
+section > div > img {
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+}
+footer {
+    font-size: 14px;
+    text-align: center;
+}

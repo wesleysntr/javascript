@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somador</title>
+    <style>
+        body {
+            background-color: rgb(99, 99, 99);
+            color: white;
+            font: normal normal 1.2em Arial, Helvetica, sans-serif;
+        }
+        input {
+            font: normal normal 1.2em Arial, Helvetica, sans-serif;
+            width: 100px;
+        }
+        input#res {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <p>Preencha os campos a seguir e aperte <em>Somar</em> para exibir o resultado.</p>
+    <input id="txtn1" type="number" name="txtn1">
+    <span> + </span>
+    <input id="txtn2" type="number" name="txtn2">
+    <input id="btn" type="button" value="Somar">
+    <p id="resultado">Resultado: </p>
+    <script>
+        var botão = window.document.getElementById('btn')
+        botão.addEventListener('click', somar)
+        function somar() {
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.getElementById('txtn2')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            var res = window.document.getElementById('resultado')
+            res.innerHTML = `Resultado: a soma entre ${n1} e ${n2} é igual a ${s}.`
+        }
+    </script>
+</body>
+</html>
