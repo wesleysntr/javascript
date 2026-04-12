@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo JC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> <!-- M = C * (1 + i) ** t -->
+    <header>
+        <h1>Calculadora de Juros Composotos</h1>
+        <p>Preencha os campos abaixo, informando o aporte, a taxa de juros e o tempo de investimento, para consultar a lista com os valores de retorno mensais e final.</p>
+    </header>
+    <section id="dados">
+        Aporte (capital): <input class="campo" type="number" name="txtaporte" id="txtaporte"><br>
+        Taxa de juros (%): <input class="campo" type="number" name="txtjuros" id="txtjuros"><br>
+        Tempo de investimento (meses): <input class="campo" type="number" name="txtperiodo" id="txtperiodo"><br>
+        <div>
+            <input type="button" value="Calcular" name="btncalcular" id="btncalcular">
+            <p>Confira os resultados abaixo!</p>
+        </div>
+    </section>
+    <section id="resultado">
+        <select name="lista" id="lista" size="12"></select>
+        <div id="resultado">
+            Montante: <span id="retorno"></span>
+        </div>
+    </section>
+    <footer>
+        Desenvolvido por <strong>Wesley Santos Rocha</strong>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
