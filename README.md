@@ -25,5 +25,5 @@ In case you feel like running the browser applications, check the links below.
 
 ## Project(s)
 
-### [Compound interest analysis](https://wesleysntr.github.io/javascript/exercises/compound_interest/)
+### [Compound interest analysis](https://wesleysntr.github.io/javascript/project(s)/compound_interest/)
 This is a program developed to deliver the month and final balances of any investment based on principal, interest rate and time.
